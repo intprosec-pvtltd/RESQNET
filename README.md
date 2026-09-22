@@ -1,14 +1,16 @@
-<div align="center">
+<p align="center">
+  <img src="assets/logo.png" alt="RESQNET Logo" width="380">
+</p>
 
-# RESQNET
+<h1 align="center">RESQNET</h1>
 
-### Emergency Communication for Connectivity-Limited Environments
+<p align="center">
+  <strong>Emergency Communication for Connectivity-Limited Environments</strong>
+</p>
 
-RESQNET is an emergency communication and coordination platform designed to support users when conventional communication infrastructure is unavailable, disrupted, or unreliable.
-
-The platform provides access to emergency communication, SOS and alert capabilities, assistance requests, community coordination, emergency resources, and other critical information through a unified mobile experience.
-
-</div>
+<p align="center">
+  RESQNET is an emergency communication and coordination platform designed to support users when conventional communication infrastructure is unavailable, disrupted, or unreliable.
+</p>
 
 ---
 
