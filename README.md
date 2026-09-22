@@ -2,9 +2,11 @@
 
 # RESQNET
 
-### Offline Emergency Communication & Bluetooth Mesh Network
+### Emergency Communication for Connectivity-Limited Environments
 
-**Offline-first emergency communication designed for situations where conventional network connectivity is unavailable or disrupted.**
+RESQNET is an emergency communication and coordination platform designed to support users when conventional communication infrastructure is unavailable, disrupted, or unreliable.
+
+The platform provides access to emergency communication, SOS and alert capabilities, assistance requests, community coordination, emergency resources, and other critical information through a unified mobile experience.
 
 </div>
 
@@ -168,83 +170,33 @@ RESQNET provides contact exchange functionality for connecting participating use
 
 # How RESQNET Works
 
-A RESQNET device can exchange emergency information with nearby RESQNET devices using Bluetooth Low Energy.
+RESQNET is designed to support communication and access to important information during situations where conventional connectivity may be limited or unavailable.
 
-Messages can be stored and relayed between participating devices, allowing information to travel beyond the direct Bluetooth range of the originating device when suitable relay devices are available.
+The platform brings together emergency communication, assistance requests, community information, location-based resources, and related emergency-support capabilities within a unified mobile experience.
 
-<div align="center">
+<p align="center">
+  <b>Connect • Communicate • Coordinate • Respond</b>
+</p>
 
-### Multi-Hop Communication
-
-**Device A → Device B → Device C → Device D**
-
-</div>
-
-Conceptually:
-
-<pre>
-Emergency Message
-        |
-        v
-  RESQNET Device A
-        |
-       BLE
-        v
-  RESQNET Device B
-        |
-   Store & Forward
-        |
-       BLE
-        v
-  RESQNET Device C
-        |
-       BLE
-        v
-  RESQNET Device D
-</pre>
-
-Each participating device can help relay eligible messages through the network while duplicate-message protection, message expiry, and TTL controls help manage message propagation.
+Specific details regarding RESQNET's communication architecture, message distribution mechanisms, security design, protocols, and internal implementation are proprietary and are not disclosed in this public repository.
 
 ---
 
 # Technology
 
-RESQNET is currently developed using **Flutter** with native Android integration for Bluetooth Low Energy communication.
+RESQNET is a mobile emergency communication platform developed using modern mobile application technologies.
 
-The application follows an **offline-first architecture**.
+The system has been designed with a focus on:
 
-### Core Technologies
+- Offline-capable operation
+- Emergency communication
+- Reliable information exchange
+- Mobile accessibility
+- Security and privacy
+- Resilient operation
+- Emergency resource coordination
 
-<table>
-  <tr>
-    <td><b>Application Framework</b></td>
-    <td>Flutter / Dart</td>
-  </tr>
-  <tr>
-    <td><b>Platform</b></td>
-    <td>Android</td>
-  </tr>
-  <tr>
-    <td><b>Communication</b></td>
-    <td>Bluetooth Low Energy (BLE)</td>
-  </tr>
-  <tr>
-    <td><b>Communication Model</b></td>
-    <td>Store-and-Forward / Multi-Hop Relay</td>
-  </tr>
-  <tr>
-    <td><b>Architecture</b></td>
-    <td>Offline-First</td>
-  </tr>
-  <tr>
-    <td><b>Local Data</b></td>
-    <td>On-device persistent storage</td>
-  </tr>
-  <tr>
-    <td><b>Security</b></td>
-    <td>Application-level encryption and authentication</td>
-  </tr>
-</table>
+Detailed information regarding the internal architecture, communication protocols, data-management mechanisms, security implementation, networking design, and infrastructure is proprietary.
 
 ---
 
@@ -308,7 +260,5 @@ Features and interfaces shown in this repository may evolve as development conti
 ## IntProSec Private Limited
 
 **RESQNET — Offline Emergency Communication**
-
-© 2026 IntProSec Private Limited. All rights reserved.
 
 </div>
